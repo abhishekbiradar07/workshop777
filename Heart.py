@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv(r"C:\Users\abhis\Documents\Machine learning\heart.csv")
+data = pd.read_csv("heart.csv")
 print(data)
 X = data.drop("target", axis=1) 
 y = data["target"]
@@ -25,7 +25,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv(r"C:\Users\abhis\Documents\Machine learning\heart.csv")
+data = pd.read_csv("heart.csv")
 print(data)
 X = data.drop("target", axis=1) 
 y = data["target"]
@@ -47,7 +47,7 @@ from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv(r"C:\Users\abhis\Documents\Machine learning\heart.csv")
+data = pd.read_csv("heart.csv")
 print(data)
 X = data.drop("target", axis=1) 
 y = data["target"]
@@ -69,7 +69,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv(r"C:\Users\abhis\Documents\Machine learning\heart.csv")
+data = pd.read_csv("heart.csv")
 print(data)
 X = data.drop("target", axis=1) 
 y = data["target"]
@@ -92,7 +92,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv(r"C:\Users\abhis\Documents\Machine learning\heart.csv")
+data = pd.read_csv("heart.csv")
 print(data)
 X = data.drop("target", axis=1) 
 y = data["target"]
@@ -114,7 +114,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv(r"C:\Users\abhis\Documents\Machine learning\heart.csv")
+data = pd.read_csv("heart.csv")
 print(data)
 X = data.drop("target", axis=1) 
 y = data["target"]
